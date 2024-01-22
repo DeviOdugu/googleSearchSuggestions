@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.bg {
+  background-color: #ffffff;
+  border: solid #bfbfbf 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+}
+.card {
+  background-color: #ffffff;
+  border: solid #bfbfbf 2px;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+}
+.a {
+  display: flex;
+}
+.search {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: #64748b;
+}
+.icon {
+  margin-left: 30px;
+}
