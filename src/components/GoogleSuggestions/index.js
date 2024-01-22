@@ -20,6 +20,7 @@ class GoogleSuggestions extends Component {
     const searchResults = suggestionsList.filter(eachItem =>
       eachItem.suggestion.toLowerCase().includes(searchInput.toLowerCase()),
     )
+    
     return (
       <div className="bg">
         <img
